@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Виртуальные окружения
+.venv/
+env/
+venv/
+ENV/
+
+# Логи
+*.log
+*.pot
+*.mo
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Миграции
+*/migrations/*.pyc
+*/migrations/*.log
+*/migrations/__pycache__/
+*/migrations/*.py
+*/migrations/*.sql
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+*Dockerfile*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+.idea
